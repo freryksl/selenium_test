@@ -1,0 +1,9 @@
+<archetype>
+  <id>seleniumprj</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/Test/java/AppTest.java</source>
+  </testSources>
+</archetype>
