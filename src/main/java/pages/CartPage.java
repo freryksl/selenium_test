@@ -35,7 +35,7 @@ public class CartPage extends ContextPage {
         // Checking size and price values are same with on previous page or not.
         List<String> data = getData();
         if(formatString(getText(priceSelector)) == formatString(data.get(0)) &&
-                formatString(getText(sizeSelector)) == formatString(data.get(1))) {
+                getText(sizeSelector).equals(data.get(1))) {
             return true;
         }
         return false;
